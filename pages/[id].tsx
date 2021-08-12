@@ -13,7 +13,9 @@ export default function CatDetail() {
   const [images, setImages] = useState([] as any)
 
   const fetchCat = async (catId: string) => {
-    const cat = await axios.get(`http://localhost:3001/cats/${catId}`)
+    const cat = await axios.get(
+      `https://catwikiapi.herokuapp.com/cats/${catId}`
+    )
     setCat(cat.data)
 
     fetchImages(cat.data.bred_id.toString())
@@ -21,7 +23,9 @@ export default function CatDetail() {
   }
 
   const fetchImages = async (catId: string) => {
-    const img = await axios.get(`http://localhost:3001/cats/images/${catId}`)
+    const img = await axios.get(
+      `https://catwikiapi.herokuapp.com/cats/images/${catId}`
+    )
     setImages(img.data)
   }
   useEffect(() => {

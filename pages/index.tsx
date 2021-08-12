@@ -76,7 +76,7 @@ export default function Home({ breeds }: any) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await axios.get("http://localhost:3001/cats")
+  const res = await axios.get("https://catwikiapi.herokuapp.com/cats")
   const breeds = res.data
   return {
     props: { breeds },

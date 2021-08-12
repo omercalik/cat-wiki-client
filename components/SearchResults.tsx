@@ -11,7 +11,7 @@ interface Props {
 
 export default function SearchResults(props: Props) {
   const handleClick = (breed: any) => {
-    axios.patch(`http://localhost:3001/cats/${breed._id}`)
+    axios.patch(`https://catwikiapi.herokuapp.com/cats/${breed._id}`)
   }
   return (
     <div className={styles["result-container"]}>

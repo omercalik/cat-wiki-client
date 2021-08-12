@@ -46,7 +46,7 @@ export default function topcats({ cats }: any) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await axios.get("http://localhost:3001/cats")
+  const res = await axios.get("https://catwikiapi.herokuapp.com/cats")
   const cats = res.data.slice(0, 10)
 
   return {
