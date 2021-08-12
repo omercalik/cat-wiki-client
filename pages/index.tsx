@@ -58,14 +58,14 @@ export default function Home({ breeds }: any) {
           <div className={styles["info-images"]}>
             <div className={styles.col1}>
               <div>
-                <Image src="/image2.png" width={275} height={167} />
+                <Image src="/image2.webp" width={275} height={167} />
               </div>
               <div style={{ marginLeft: "80px", marginTop: "30px" }}>
-                <Image src="/image1.png" width={195} height={294} />
+                <Image src="/image1.webp" width={195} height={294} />
               </div>
             </div>
             <div className={styles.col2}>
-              <Image src="/image3.png" width={240} height={395} />
+              <Image src="/image3.webp" width={240} height={395} />
             </div>
           </div>
         </div>
