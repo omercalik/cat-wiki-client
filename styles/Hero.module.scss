@@ -1,0 +1,20 @@
+.hero {
+  background-image: url("/HeroImagelg.png");
+  height: 800px;
+
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.hero-wrapper {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.hero-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+}

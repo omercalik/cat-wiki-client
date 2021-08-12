@@ -1,0 +1,25 @@
+.feature-container {
+  display: flex;
+
+  p {
+    width: 150px;
+  }
+}
+
+.feature-bars {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.feature-bar {
+  width: 60px;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+
+.degree {
+  background-color: #544439;
+}

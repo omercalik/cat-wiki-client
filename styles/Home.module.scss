@@ -1,0 +1,55 @@
+.hero-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.info-container {
+  display: flex;
+  padding-left: 150px;
+  justify-content: space-between;
+  margin-top: 150px;
+  .divider {
+    width: 60px;
+    height: 3px;
+    background-color: #4d270c;
+    border-radius: 77px;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #291507;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
+  }
+
+  .read-more {
+    color: rgba(41, 21, 7, 0.6);
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .arrow-icon {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .info-images {
+    display: flex;
+    gap: 27px;
+
+    .col1 {
+      display: block;
+    }
+  }
+}

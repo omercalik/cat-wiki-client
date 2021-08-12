@@ -1,0 +1,43 @@
+.topcats-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+}
+
+.topcat-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 100px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .description {
+    width: 60%;
+    margin-top: -40px;
+    margin-left: 15%;
+  }
+}
+
+.image {
+  width: 170px;
+}
+
+.cat-image {
+  border-radius: 24px;
+}
+
+.logo {
+  cursor: pointer;
+}
