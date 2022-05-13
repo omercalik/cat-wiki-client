@@ -93,7 +93,7 @@ export default function CatDetail() {
                 key={index}
                 className={styles["extra-image"]}
                 src={img.url}
-                width={385}
+                width={300}
                 height={300}
               />
             ))}
